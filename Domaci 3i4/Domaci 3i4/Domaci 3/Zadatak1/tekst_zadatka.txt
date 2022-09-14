@@ -1,0 +1,25 @@
+Zadatak 2.
+Dati tekst preurediti u HTML dokument
+1. Napisati html, head i body tagove. Za početak ceo tekst treba da bude u
+body tagu.
+2. Za jezik dokumenta setovati “sr”
+3. U head tag dodati meta tag za specifikaciju character seta (postaviti
+utf-8)
+4. U head tag dodati title element i upisati naslov dokumenta “US Open”
+5. U body tag dodati main tag tako da obuhvati ceo tekst
+6. Prvu liniju teksta pretvoriti u glavni naslov
+7. Drugu liniju teksta pretvoriti u podnaslov (naslov 2. nivoa)
+8. Sledeći blok teksta pretvoriti u header element
+9. Preostali tekst, osim poslednjeg reda, svaki blok pretvoriti u paragraf
+10. Poslednji red teksta “sledeća vest…” pretvoriti u link koji vodi na
+adresu
+http://www.b92.net/sport/usopen2015/vesti.php?yyyy=2015&mm=09&d
+d=15&nav_id=1039529
+Dodatno:
+1. U dati dokument ispred prvog p taga ubaciti referencu na sliku koja se
+nalazi u folderu img, u fajlu pod nazivom img_w640.jpg
+2. Tekst pasusa citata (počinje navodnicima) smestiti u blockqoute
+element, a same navodnike zameniti q tagom
+3. Dodati header i footer tagove u body element. U header upisati h1
+element sa tekstom “Moje vesti”, a u footer tekst 2015
+4. Napisati CSS kod tako da stranica liči na stranicu prikazanu na slici domaci.png

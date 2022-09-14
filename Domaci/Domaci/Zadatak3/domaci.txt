@@ -1,0 +1,12 @@
+Domaći zadatak je izrada sopstvenog bloga.
+
+Trudi se da koristiš što više semantičkih elemenata da daš veći smisao svojoj stranici. Iskoristi main, aside, article ukoliko ima smisla.
+Obavezno napravi navigacioni bar. Navigacioni bar (nav) u sebi ima nenabrojivu listu linkova. Svaki link otvara odgovarajuću stranicu. Potrebno je da imaš minimalno tri stranice.
+
+Prva stranica je home stranica. Na njoj napravi sadržaj svog bloga.
+Ideja je da pišete o stvarima koje te zanimaju. Potrebno je da imaš barem 3 sekcije. U svakoj sekciji napiši barem jedan paragraf o nekom svom interesovanju, hobiju, zanimanju, sportu... U svakoj sekciji ubaci barem po jednu sliku. Obavezno dodaj linkove do wikipedia stranica za neke pojmove koji možda nisu poznati čitaocima sajta.
+Iskoristi na barem jednom mestu tabelu i listu.
+
+Druga stranica je About stranica. Na njoj napiši nešto o sebi i stavi barem jednu sliku. Napiši barem dva paragrafa i iskoristi barem još jedan HTML element.
+
+Treća stranica je kontakt. Na njoj stavi svoje kontakt podatke, linkove do društvenih mreža i svoju adresu. Bonus: iskoristi Google Mape da ubaciš iframe element sa mapom i pinom do neke nasumične lokacije.
