@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-container {
+  background-color: red;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .nav-container {
+    flex-direction: column-reverse;
+  }
+}
+.nav-container .nav-heading {
+  font-size: 5rem;
+  flex: 0 0 40%;
+}
+@media screen and (max-width: 1024px) {
+  .nav-container .nav-heading {
+    font-size: 3rem;
+  }
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+.nav-list li {
+  background-color: black;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 0 0 40px 40px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+.nav-list li img {
+  height: 50px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  color: lightgoldenrodyellow;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+}
+
+.section-one {
+  padding: 30px 50px 20px 0;
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  .section-one {
+    flex-wrap: wrap;
+    padding-left: 50px;
+  }
+}
+.section-one .sectionOne-img {
+  flex: 0 0 50%;
+  background-image: url(../images/music.jpg);
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .section-one .sectionOne-img {
+    height: 50vh;
+    flex: 0 0 100%;
+  }
+}
+.section-one .sectionOne-text h2 {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+  .section-one .sectionOne-text h2 {
+    margin: 10px auto;
+  }
+}
+.section-one .sectionOne-text p {
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.section-two {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .section-two {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section-two {
+    flex-wrap: wrap;
+  }
+}
+.section-two .card {
+  flex: 0 0 32%;
+  padding: 0 10px;
+}
+@media screen and (max-width: 1024px) {
+  .section-two .card {
+    flex: 0 0 100%;
+    padding: 10px 0;
+  }
+}
+.section-two .card h3 {
+  color: white;
+  background-color: red;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.section-two .card p {
+  text-align: justify;
+  padding: 10px 0;
+}
+.section-two .card button {
+  padding: 5px 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.section-two .card + .card {
+  border-left: 2px solid white;
+}
+@media screen and (max-width: 1024px) {
+  .section-two .card + .card {
+    border-top: 2px solid white;
+    border-left: none;
+  }
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  footer {
+    justify-content: center;
+  }
+}
+footer a {
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  footer a {
+    margin: 0 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
