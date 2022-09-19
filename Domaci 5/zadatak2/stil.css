@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section {
+  width: 70%;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  position: relative;
+}
+div {
+  padding: 20px;
+  width: 300px;
+  border: 5px solid blue;
+  background-color: gray;
+  text-align: justify;
+}
+h1 {
+  font-size: 28pt;
+  color: purple;
+  text-align: center;
+  border-bottom: 2px solid #66c;
+}
+.second {
+  position: relative;
+  background-color: rgba(0, 255, 255, 0.8);
+  top: 30px;
+  left: 500px;
+}
+.third {
+  background-color: rgb(230, 200, 255);
+  position: absolute;
+  top: -10px;
+  left: -100px;
+}
+.seven {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+table td {
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.color {
+  background-color: yellow;
+  color: red;
+}
+.color:hover {
+  background-color: pink;
+}
+ol {
+  padding: 2em;
+  border: 2px dotted grey;
+}
+ol > li {
+  background-color: aliceblue;
+  padding: 0.5em;
+  border: 1px solid darkblue;
+}
+.pod {
+  background-color: #efc;
+  padding: 0px;
+  border: 1px solid green;
+}
