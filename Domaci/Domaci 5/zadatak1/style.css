@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: lightgray;
+}
+main {
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: firebrick;
+  background: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+}
+.naslovi {
+  text-align: center;
+  color: firebrick;
+  padding: 5px 0;
+  background: yellow;
+}
+.padding {
+  padding: 20px 20px 0;
+}
+nav {
+  background-color: yellow;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+}
+nav ul li {
+  padding: 7px 50px;
+  border-right: 1px solid red;
+}
+nav ul li a {
+  color: red;
+  text-decoration: none;
+}
+nav ul .hidden {
+  display: none;
+}
+nav ul li:hover {
+  background-color: firebrick;
+}
+nav ul li:hover a {
+  color: white;
+}
+.one .img {
+  height: 100vh;
+  background-image: url(images/slika.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.three .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.three .items {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 30%;
+  padding: 20px;
+  height: fit-content;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.items h3 {
+  color: firebrick;
+  margin-bottom: 7%;
+}
+.four p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.four ul {
+  padding: 10px 50px;
+}
+.five {
+  border-bottom: 3px solid firebrick;
+}
+.five form {
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-radius: 20px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+.five form label {
+  display: inline-block;
+  color: firebrick;
+  margin-left: 10px;
+  width: 150px;
+  letter-spacing: 1px;
+}
+.five form input,
+.five form select {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid firebrick;
+}
+.five form select {
+  background: buttonface;
+}
+.five form input[type="submit"] {
+  display: block;
+  text-align: center;
+  margin: 0 5px;
+}
+.six {
+  padding-bottom: 15px;
+}
+.six h2 {
+  background-color: white;
+}
+.six > div {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+.six div div {
+  border: 1px solid firebrick;
+  background-image: url(images/slika.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 5px 10px black;
+  height: 200px;
+  width: 200px;
+}
+.six p {
+  width: 90%;
+  margin: 0 auto;
+}
+.six div .img2 {
+  border-radius: 10px;
+}
+.six div .img3 {
+  border-radius: 50%;
+}
+@media screen and (max-width: 1024px) {
+  nav ul li {
+    text-align: center;
+  }
+  nav ul li a {
+    line-height: 1.5;
+  }
+  .three .items {
+    flex: 0 0 48%;
+  }
+  .six p {
+    width: 100%;
+    text-align: center;
+  }
+  .six > div {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+  nav ul .hidden {
+    display: block;
+    width: 100%;
+  }
+  nav ul .hidden a {
+    color: darkslategrey;
+  }
+  nav ul li.hidden:hover {
+    background-color: firebrick;
+  }
+  nav ul li.hidden:hover a {
+    color: darkslategrey;
+  }
+  nav ul:hover li {
+    display: block;
+  }
+  nav ul li {
+    flex: 0 0 100%;
+    border-right: none;
+    border-bottom: 1px solid red;
+    display: none;
+  }
+  .three .items {
+    flex: 0 0 100%;
+  }
+  .five form label {
+    margin-left: 5px;
+    width: 100px;
+    letter-spacing: 0.5px;
+  }
+  .five form input,
+  .five form select {
+    width: 200px;
+  }
+  .six > div {
+    width: 90%;
+  }
+}

@@ -1,0 +1,20 @@
+@mixin bg-img($bg-image) {
+  background-image: $bg-image;
+  background-position: center;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  img {
+    padding: 40px;
+  }
+}
+@mixin medium {
+  @media screen and (max-width: $medium-width) {
+    @content;
+  }
+}
+@mixin small {
+  @media screen and (max-width: $small-width) {
+    @content;
+  }
+}
