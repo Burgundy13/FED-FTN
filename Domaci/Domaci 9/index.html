@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="slike/favicon.svg" type="image/x-icon" />
+    <title>GoGoTravel</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="slike/favicon.svg" alt="plain" />
+        <h2>GoGoTravel</h2>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#">Pocetna</a></li>
+        <li><a href="#">Smestaj</a></li>
+        <li><a href="#">Letovi</a></li>
+        <li><a href="#">Iznajmljivanje auta</a></li>
+      </ul>
+      <button>Log In | Sign In</button>
+    </nav>
+    <header>
+      <form action="#" method="get">
+        <div class="form-item">
+          <label for="lokacija">Lokacija</label>
+          <input
+            type="search"
+            list="lokacija"
+            name="lokacija"
+            id="pretraga"
+            placeholder="Gde idete?"
+          />
+          <datalist id="lokacija">
+            <option value="Dubai"></option>
+            <option value="London"></option>
+            <option value="Berlin"></option>
+          </datalist>
+        </div>
+        <div class="form-item">
+          <label for="datumD">Datum dolaska</label>
+          <input type="date" id="datumD" name="datumD" />
+        </div>
+        <div class="form-item">
+          <label for="datumO">Datum odlaska</label>
+          <input type="date" id="datumO" name="datumO" />
+        </div>
+        <div class="form-item">
+          <label for="brojO">Broj osoba</label>
+          <input type="number" id="brojO" name="brojO" />
+        </div>
+
+        <input
+          class="btn"
+          type="submit"
+          name="submit"
+          value="&#x1F50E;&#xFE0E;"
+        />
+      </form>
+    </header>
+    <main>
+      <section class="cards">
+        <h1>Inspiracija za vase sledece putovanje</h1>
+        <div class="wrapper">
+          <div class="wrapper-item">
+            <img src="slike/Dubai.jpeg" alt="dubai" />
+            <h3>Dubai</h3>
+          </div>
+          <div class="wrapper-item">
+            <img src="slike/London.jpeg" alt="london" />
+            <h3>London</h3>
+          </div>
+          <div class="wrapper-item">
+            <img src="slike/Berlin.jpeg" alt="berlin" />
+            <h3>Berlin</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12080.099207677205!2d-73.97417480800023!3d40.805448770767306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c75af2d65%3A0xf45542f6cb090cc9!2zMjg4MCBCcm9hZHdheSwgTmV3IFlvcmssIE5ZIDEwMDI1LCDQodGY0LXQtNC40ZrQtdC90LUg0JTRgNC20LDQstC1!5e0!3m2!1ssr!2srs!4v1664447633016!5m2!1ssr!2srs"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="footer-links">
+        <div class="support">
+          <h3>Podrska:</h3>
+          <a href="#">Centar za pomoc</a>
+          <a href="#">Informacije o bezbednosti</a>
+          <a href="#">Opcije otkazivanja</a>
+          <a href="#">Nas odgovor na COVID-19</a>
+          <a href="#">Podrzite osobe s invaliditetom</a>
+          <a href="#">Prijavite problem u okolini</a>
+        </div>
+        <div class="info">
+          <h3>Osnovni podaci:</h3>
+          <a href="#">Pres centar</a>
+          <a href="#">Vise o novim funkcijama</a>
+          <a href="#">Pismo od nasih osnivaca</a>
+          <a href="#">Zaposlenje</a>
+          <a href="#">Investitori</a>
+          <br />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
